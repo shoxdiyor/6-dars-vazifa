@@ -1,0 +1,25 @@
+@mixin theme($mode) {
+  @if $mode == "dark" {
+    --primary-color: #{$dark-primary-color};
+    --secondary-color: #{$dark-secondary-color};
+    --background-color: #{$dark-background-color};
+    --card-background-color: #{$dark-card-background-color};
+    --text-color: #{$dark-text-color};
+    --muted-text-color: #{$dark-muted-text-color};
+    --border-color: #{$dark-border-color};
+    --hover-color: #{$dark-hover-color};
+    --link-color: #{$dark-link-color};
+    --footer-background: #{$dark-footer-background};
+  } @else if $mode == "light" {
+    --primary-color: #{$light-primary-color};
+    --secondary-color: #{$light-secondary-color};
+    --background-color: #{$light-background-color};
+    --card-background-color: #{$light-card-background-color};
+    --text-color: #{$light-text-color};
+    --muted-text-color: #{$light-muted-text-color};
+    --border-color: #{$light-border-color};
+    --hover-color: #{$light-hover-color};
+    --link-color: #{$light-link-color};
+    --footer-background: #{$light-footer-background};
+  }
+}
