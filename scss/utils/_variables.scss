@@ -1,25 +1,15 @@
-// Variables for dark mode
-$dark-primary-color: #00b894; // Green (buttons, highlights)
-$dark-secondary-color: #ffffff; // White (text on dark backgrounds)
-$dark-background-color: #121212; // Dark background
-$dark-card-background-color: #1e1e1e; // Card background
-$dark-text-color: #dfe6e9; // Light text color
-$dark-muted-text-color: #636e72; // Muted text (secondary text)
-$dark-border-color: #2d2d2d; // Border for cards and sections
-$dark-hover-color: #019a76; // Button hover effect
-$dark-link-color: #74b9ff; // Link color
-$dark-footer-background: #181818; // Footer background
-$main-ff: "Montserrat";
+// Neutral
+$neutral-900: #062630;
+$neutral-700: #385159;
+$neutral-200: #e6e1df;
+$neutral-100: #faf5f3;
+$neutral-0: #ffffff;
 
-// Variables for light mode
-$light-primary-color: #00b894; // Green (buttons, highlights)
-$light-secondary-color: #000000; // Black (text on light backgrounds)
-$light-background-color: #ffffff; // White background
-$light-card-background-color: #f9f9f9; // Card background
-$light-text-color: #2d3436; // Dark text color
-$light-muted-text-color: #636e72; // Muted text (secondary text)
-$light-border-color: #e0e0e0; // Border for cards and sections
-$light-hover-color: #019a76; // Button hover effect
-$light-link-color: #0984e3; // Link color
-$light-footer-background: #f1f1f1; // Footer background
-$main-ff: "Montserrat", sans-serif;
+// Light Salmon
+$light-salmon-500: #fea36f;
+$light-salmon-100: #ffefdf;
+$light-salmon-50: #fff5ef;
+
+// Gradients
+$text-gradient: linear-gradient(107deg, #ff9a60 -11.37%, #062630 61.84%);
+$gradient: linear-gradient(90deg, #ffe2d1 0%, #fff5ef 100%);
